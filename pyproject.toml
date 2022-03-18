@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "kaggle-ubiquant-market-prediction"
+version = "0.1.0"
+description = ""
+authors = ["Stefan Bader <baderstefan@gmx.de>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+[tool.poetry.dev-dependencies]
+kaggle = "^1.5.12"
+pylint = "^2.12.2"
+mypy = "^0.941"
+pytest = "^7.1.1"
+jupyter = "^1.0.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
